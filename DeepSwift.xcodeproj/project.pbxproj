@@ -20,8 +20,23 @@
 		37C0D1222A94A7E2004697A6 /* SeguePassDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1212A94A7E1004697A6 /* SeguePassDataVC.swift */; };
 		37C0D1242A94C527004697A6 /* DelegatePassDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1232A94C526004697A6 /* DelegatePassDataVC.swift */; };
 		37C0D1262A95A995004697A6 /* ClosurePassDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1252A95A995004697A6 /* ClosurePassDataVC.swift */; };
+		37C0D12F2A9704E5004697A6 /* DeepSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D12E2A9704E5004697A6 /* DeepSwiftTests.swift */; };
+		37C0D1372A9705FC004697A6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1362A9705FC004697A6 /* Extension.swift */; };
+		37C0D13B2A970657004697A6 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D13A2A970657004697A6 /* StringExtensionsTests.swift */; };
+		37C0D13D2A970D2B004697A6 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D13C2A970D2B004697A6 /* Content.swift */; };
+		37C0D1422A975258004697A6 /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1412A975258004697A6 /* ContentTests.swift */; };
 		4264F52D2E5F28B3CD7BA52B /* Pods_DeepSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F314B2FEF74E4A17EF89B080 /* Pods_DeepSwift.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37C0D1302A9704E5004697A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37C0D0F82A9454D8004697A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37C0D0FF2A9454D8004697A6;
+			remoteInfo = DeepSwift;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		37C0D1002A9454D8004697A6 /* DeepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,6 +54,12 @@
 		37C0D1212A94A7E1004697A6 /* SeguePassDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeguePassDataVC.swift; sourceTree = "<group>"; };
 		37C0D1232A94C526004697A6 /* DelegatePassDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatePassDataVC.swift; sourceTree = "<group>"; };
 		37C0D1252A95A995004697A6 /* ClosurePassDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosurePassDataVC.swift; sourceTree = "<group>"; };
+		37C0D12C2A9704E5004697A6 /* DeepSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C0D12E2A9704E5004697A6 /* DeepSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSwiftTests.swift; sourceTree = "<group>"; };
+		37C0D1362A9705FC004697A6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		37C0D13A2A970657004697A6 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
+		37C0D13C2A970D2B004697A6 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		37C0D1412A975258004697A6 /* ContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTests.swift; sourceTree = "<group>"; };
 		3BEFF2F943A7A9B5A83A2322 /* Pods-DeepSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSwift.debug.xcconfig"; path = "Target Support Files/Pods-DeepSwift/Pods-DeepSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		72BC1AEEDEEDE49258D17144 /* Pods-DeepSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSwift.release.xcconfig"; path = "Target Support Files/Pods-DeepSwift/Pods-DeepSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F314B2FEF74E4A17EF89B080 /* Pods_DeepSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +74,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37C0D1292A9704E5004697A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				37C0D1022A9454D8004697A6 /* DeepSwift */,
+				37C0D12D2A9704E5004697A6 /* DeepSwiftTests */,
 				37C0D1012A9454D8004697A6 /* Products */,
 				F4D638AB8AB44A669C1545D9 /* Pods */,
 				DC3A48518CF40AF821113CE5 /* Frameworks */,
@@ -70,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				37C0D1002A9454D8004697A6 /* DeepSwift.app */,
+				37C0D12C2A9704E5004697A6 /* DeepSwiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +122,7 @@
 		37C0D1172A9454E4004697A6 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
+				37C0D1352A9705EC004697A6 /* Utilities */,
 				37C0D1272A96FF54004697A6 /* UnitTest */,
 				37C0D1182A9455CB004697A6 /* PassingData */,
 			);
@@ -115,6 +146,49 @@
 		37C0D1272A96FF54004697A6 /* UnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				37C0D13C2A970D2B004697A6 /* Content.swift */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		37C0D12D2A9704E5004697A6 /* DeepSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D1382A97062D004697A6 /* Topics */,
+				37C0D12E2A9704E5004697A6 /* DeepSwiftTests.swift */,
+			);
+			path = DeepSwiftTests;
+			sourceTree = "<group>";
+		};
+		37C0D1352A9705EC004697A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D1362A9705FC004697A6 /* Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37C0D1382A97062D004697A6 /* Topics */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D13E2A9751BD004697A6 /* UnitTest */,
+				37C0D1392A970637004697A6 /* Utilities */,
+			);
+			path = Topics;
+			sourceTree = "<group>";
+		};
+		37C0D1392A970637004697A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D13A2A970657004697A6 /* StringExtensionsTests.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		37C0D13E2A9751BD004697A6 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D1412A975258004697A6 /* ContentTests.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -133,7 +207,6 @@
 				3BEFF2F943A7A9B5A83A2322 /* Pods-DeepSwift.debug.xcconfig */,
 				72BC1AEEDEEDE49258D17144 /* Pods-DeepSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -158,6 +231,24 @@
 			productReference = 37C0D1002A9454D8004697A6 /* DeepSwift.app */;
 			productType = "com.apple.product-type.application";
 		};
+		37C0D12B2A9704E5004697A6 /* DeepSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37C0D1342A9704E5004697A6 /* Build configuration list for PBXNativeTarget "DeepSwiftTests" */;
+			buildPhases = (
+				37C0D1282A9704E5004697A6 /* Sources */,
+				37C0D1292A9704E5004697A6 /* Frameworks */,
+				37C0D12A2A9704E5004697A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37C0D1312A9704E5004697A6 /* PBXTargetDependency */,
+			);
+			name = DeepSwiftTests;
+			productName = DeepSwiftTests;
+			productReference = 37C0D12C2A9704E5004697A6 /* DeepSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,6 +261,10 @@
 				TargetAttributes = {
 					37C0D0FF2A9454D8004697A6 = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					37C0D12B2A9704E5004697A6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 37C0D0FF2A9454D8004697A6;
 					};
 				};
 			};
@@ -187,6 +282,7 @@
 			projectRoot = "";
 			targets = (
 				37C0D0FF2A9454D8004697A6 /* DeepSwift */,
+				37C0D12B2A9704E5004697A6 /* DeepSwiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -201,6 +297,13 @@
 				37C0D1202A94A305004697A6 /* PropertyPassDataVC.xib in Resources */,
 				37C0D10B2A9454D8004697A6 /* Main.storyboard in Resources */,
 				37C0D11C2A945961004697A6 /* PassData.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37C0D12A2A9704E5004697A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +339,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C0D1372A9705FC004697A6 /* Extension.swift in Sources */,
 				37C0D1242A94C527004697A6 /* DelegatePassDataVC.swift in Sources */,
 				37C0D1262A95A995004697A6 /* ClosurePassDataVC.swift in Sources */,
+				37C0D13D2A970D2B004697A6 /* Content.swift in Sources */,
 				37C0D1082A9454D8004697A6 /* ViewController.swift in Sources */,
 				37C0D1042A9454D8004697A6 /* AppDelegate.swift in Sources */,
 				37C0D11A2A945686004697A6 /* MainPassDataVC.swift in Sources */,
@@ -247,7 +352,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37C0D1282A9704E5004697A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C0D13B2A970657004697A6 /* StringExtensionsTests.swift in Sources */,
+				37C0D12F2A9704E5004697A6 /* DeepSwiftTests.swift in Sources */,
+				37C0D1422A975258004697A6 /* ContentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37C0D1312A9704E5004697A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37C0D0FF2A9454D8004697A6 /* DeepSwift */;
+			targetProxy = 37C0D1302A9704E5004697A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		37C0D1092A9454D8004697A6 /* Main.storyboard */ = {
@@ -443,6 +566,42 @@
 			};
 			name = Release;
 		};
+		37C0D1322A9704E5004697A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLV9PG55Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bimosektiw.DeepSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepSwift.app/DeepSwift";
+			};
+			name = Debug;
+		};
+		37C0D1332A9704E5004697A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XLV9PG55Q3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bimosektiw.DeepSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepSwift.app/DeepSwift";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +619,15 @@
 			buildConfigurations = (
 				37C0D1152A9454DA004697A6 /* Debug */,
 				37C0D1162A9454DA004697A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37C0D1342A9704E5004697A6 /* Build configuration list for PBXNativeTarget "DeepSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37C0D1322A9704E5004697A6 /* Debug */,
+				37C0D1332A9704E5004697A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
