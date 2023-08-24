@@ -1,0 +1,6 @@
+framework module Pods_DeepSwift {
+  umbrella header "Pods-DeepSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
