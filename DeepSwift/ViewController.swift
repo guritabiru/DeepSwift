@@ -18,12 +18,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var topicsTableView: UITableView!
     
     let topics: [Topic] = [
-        Topic(name: "Passing Data", storyboardName: "PassData", viewName: "MainPassDataVC")
+        Topic(name: "Passing Data", storyboardName: "PassData", viewName: "MainPassDataVC"),
+        Topic(name: "Tab Bar", storyboardName: "TabBar", viewName: "MainTabBarVC")
     ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = "Choose Topic"
+        self.navigationItem.title = "Topics"
         setupTableView()
     }
     

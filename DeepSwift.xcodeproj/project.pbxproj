@@ -25,6 +25,12 @@
 		37C0D13B2A970657004697A6 /* StringExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D13A2A970657004697A6 /* StringExtensionsTests.swift */; };
 		37C0D13D2A970D2B004697A6 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D13C2A970D2B004697A6 /* Content.swift */; };
 		37C0D1422A975258004697A6 /* ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1412A975258004697A6 /* ContentTests.swift */; };
+		37C0D16B2A9C3E98004697A6 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D16A2A9C3E98004697A6 /* MainTabBarVC.swift */; };
+		37C0D16D2A9C3EFC004697A6 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C0D16C2A9C3EFC004697A6 /* TabBar.storyboard */; };
+		37C0D16F2A9C4424004697A6 /* FirstTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D16E2A9C4424004697A6 /* FirstTabBarVC.swift */; };
+		37C0D1712A9C4439004697A6 /* SecondTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1702A9C4439004697A6 /* SecondTabBarVC.swift */; };
+		37C0D1732A9C7F74004697A6 /* ThirdTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1722A9C7F73004697A6 /* ThirdTabBarVC.swift */; };
+		37C0D1752A9C7F86004697A6 /* FourthTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1742A9C7F86004697A6 /* FourthTabBarVC.swift */; };
 		4264F52D2E5F28B3CD7BA52B /* Pods_DeepSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F314B2FEF74E4A17EF89B080 /* Pods_DeepSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +66,12 @@
 		37C0D13A2A970657004697A6 /* StringExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionsTests.swift; sourceTree = "<group>"; };
 		37C0D13C2A970D2B004697A6 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
 		37C0D1412A975258004697A6 /* ContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTests.swift; sourceTree = "<group>"; };
+		37C0D16A2A9C3E98004697A6 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
+		37C0D16C2A9C3EFC004697A6 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		37C0D16E2A9C4424004697A6 /* FirstTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabBarVC.swift; sourceTree = "<group>"; };
+		37C0D1702A9C4439004697A6 /* SecondTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBarVC.swift; sourceTree = "<group>"; };
+		37C0D1722A9C7F73004697A6 /* ThirdTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBarVC.swift; sourceTree = "<group>"; };
+		37C0D1742A9C7F86004697A6 /* FourthTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTabBarVC.swift; sourceTree = "<group>"; };
 		3BEFF2F943A7A9B5A83A2322 /* Pods-DeepSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSwift.debug.xcconfig"; path = "Target Support Files/Pods-DeepSwift/Pods-DeepSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		72BC1AEEDEEDE49258D17144 /* Pods-DeepSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepSwift.release.xcconfig"; path = "Target Support Files/Pods-DeepSwift/Pods-DeepSwift.release.xcconfig"; sourceTree = "<group>"; };
 		F314B2FEF74E4A17EF89B080 /* Pods_DeepSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +134,7 @@
 		37C0D1172A9454E4004697A6 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
+				37C0D1692A9C3E17004697A6 /* TabBar */,
 				37C0D1352A9705EC004697A6 /* Utilities */,
 				37C0D1272A96FF54004697A6 /* UnitTest */,
 				37C0D1182A9455CB004697A6 /* PassingData */,
@@ -191,6 +204,19 @@
 				37C0D1412A975258004697A6 /* ContentTests.swift */,
 			);
 			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		37C0D1692A9C3E17004697A6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D16A2A9C3E98004697A6 /* MainTabBarVC.swift */,
+				37C0D16C2A9C3EFC004697A6 /* TabBar.storyboard */,
+				37C0D16E2A9C4424004697A6 /* FirstTabBarVC.swift */,
+				37C0D1702A9C4439004697A6 /* SecondTabBarVC.swift */,
+				37C0D1722A9C7F73004697A6 /* ThirdTabBarVC.swift */,
+				37C0D1742A9C7F86004697A6 /* FourthTabBarVC.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		DC3A48518CF40AF821113CE5 /* Frameworks */ = {
@@ -296,6 +322,7 @@
 				37C0D10D2A9454DA004697A6 /* Assets.xcassets in Resources */,
 				37C0D1202A94A305004697A6 /* PropertyPassDataVC.xib in Resources */,
 				37C0D10B2A9454D8004697A6 /* Main.storyboard in Resources */,
+				37C0D16D2A9C3EFC004697A6 /* TabBar.storyboard in Resources */,
 				37C0D11C2A945961004697A6 /* PassData.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,10 +370,15 @@
 				37C0D1242A94C527004697A6 /* DelegatePassDataVC.swift in Sources */,
 				37C0D1262A95A995004697A6 /* ClosurePassDataVC.swift in Sources */,
 				37C0D13D2A970D2B004697A6 /* Content.swift in Sources */,
+				37C0D1732A9C7F74004697A6 /* ThirdTabBarVC.swift in Sources */,
 				37C0D1082A9454D8004697A6 /* ViewController.swift in Sources */,
 				37C0D1042A9454D8004697A6 /* AppDelegate.swift in Sources */,
 				37C0D11A2A945686004697A6 /* MainPassDataVC.swift in Sources */,
+				37C0D16F2A9C4424004697A6 /* FirstTabBarVC.swift in Sources */,
 				37C0D11F2A94A305004697A6 /* PropertyPassDataVC.swift in Sources */,
+				37C0D16B2A9C3E98004697A6 /* MainTabBarVC.swift in Sources */,
+				37C0D1712A9C4439004697A6 /* SecondTabBarVC.swift in Sources */,
+				37C0D1752A9C7F86004697A6 /* FourthTabBarVC.swift in Sources */,
 				37C0D1062A9454D8004697A6 /* SceneDelegate.swift in Sources */,
 				37C0D1222A94A7E2004697A6 /* SeguePassDataVC.swift in Sources */,
 			);
