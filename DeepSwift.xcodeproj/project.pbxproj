@@ -45,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370167482ADE71C80073D444 /* Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Properties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37C0D1002A9454D8004697A6 /* DeepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0D1032A9454D8004697A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C0D1052A9454D8004697A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370167462ADE71200073D444 /* Basics */ = {
+			isa = PBXGroup;
+			children = (
+				37C0D1962AA03260004697A6 /* Properties */,
+				370167482ADE71C80073D444 /* Properties.playground */,
+			);
+			path = Basics;
+			sourceTree = "<group>";
+		};
 		37C0D0F72A9454D8004697A6 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 		37C0D1172A9454E4004697A6 /* Topics */ = {
 			isa = PBXGroup;
 			children = (
+				370167462ADE71200073D444 /* Basics */,
 				37C0D1692A9C3E17004697A6 /* TabBar */,
 				37C0D1352A9705EC004697A6 /* Utilities */,
 				37C0D1272A96FF54004697A6 /* UnitTest */,
@@ -217,6 +228,13 @@
 				37C0D1742A9C7F86004697A6 /* FourthTabBarVC.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		37C0D1962AA03260004697A6 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Properties;
 			sourceTree = "<group>";
 		};
 		DC3A48518CF40AF821113CE5 /* Frameworks */ = {
