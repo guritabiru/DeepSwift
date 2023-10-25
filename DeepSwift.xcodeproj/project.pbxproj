@@ -47,6 +47,7 @@
 /* Begin PBXFileReference section */
 		370167482ADE71C80073D444 /* Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Properties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674A2AE2875D0073D444 /* Initializer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initializer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		3701674B2AE8DC180073D444 /* ClassStructure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassStructure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37C0D1002A9454D8004697A6 /* DeepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0D1032A9454D8004697A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C0D1052A9454D8004697A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 				37C0D1962AA03260004697A6 /* Properties */,
 				370167482ADE71C80073D444 /* Properties.playground */,
 				3701674A2AE2875D0073D444 /* Initializer.playground */,
+				3701674B2AE8DC180073D444 /* ClassStructure.playground */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
