@@ -1,5 +1,9 @@
 import UIKit
 
+func printTitle(_ titleName: String, _ titleNumber: Int) {
+    print("\n\(titleNumber). \(titleName) ->\n")
+}
+
 /*
  Closure expression syntax
  
@@ -13,8 +17,7 @@ import UIKit
 /*
  1. Basic Closure
  */
-//print("\n \n")
-print("1. Basic Closure ->")
+printTitle("Basic Closure", 1)
 
 let integerMultiplier = { (input: Int) -> Int in
     return input * 2
@@ -27,8 +30,7 @@ print(multipliedValue)
 /*
  2. Omitting Closure
  */
-print("\n \n")
-print("2. Omitting Closure ->")
+printTitle("Omitting Closure", 2)
 
 // omitting return type
 let integerMultiplier1 = { (input: Int) in
@@ -66,8 +68,7 @@ print(sortedIntegers2)
 /*
  3. Trailing Closure
  */
-print("\n \n")
-print("3. Trailing Closure ->")
+printTitle("Omitting Closure", 2)
 
 func someCalculation(number: Int, completion: (_ success: Bool) -> Void) {
     // some statements
@@ -93,19 +94,16 @@ someCalculation(number: 0) {
 /*
  4. Capturing values in a closure
  */
-print("\n \n")
-print("4. Capturing values in a closure ->")
+printTitle("Capturing values in a closure", 4)
 
 
 /*
  5. Escaping Closure
  */
-print("\n \n")
-print("5. Escaping Closure ->")
+printTitle("Escaping Closure", 5)
 
 
 /*
  6. Autoclosure
  */
-print("\n \n")
-print("6. Autoclosure ->")
+printTitle("Autoclosure", 6)
