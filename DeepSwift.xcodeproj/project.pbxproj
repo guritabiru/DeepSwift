@@ -51,6 +51,7 @@
 		3701674C2AE8EABC0073D444 /* OOP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = OOP.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674D2AEA5C7C0073D444 /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674E2AECAFC20073D444 /* Enumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		37703E212AF5078E000AC0AD /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37C0D1002A9454D8004697A6 /* DeepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0D1032A9454D8004697A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C0D1052A9454D8004697A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				3701674C2AE8EABC0073D444 /* OOP.playground */,
 				3701674D2AEA5C7C0073D444 /* Closure.playground */,
 				3701674E2AECAFC20073D444 /* Enumerations.playground */,
+				37703E212AF5078E000AC0AD /* Singleton.playground */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
