@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		377D7C2E2AFA311A003430DB /* ARC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377D7C2D2AFA311A003430DB /* ARC.swift */; };
+		377D7C302AFA32A1003430DB /* ARCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377D7C2F2AFA32A1003430DB /* ARCTests.swift */; };
+		377D7C322AFA3370003430DB /* ExtensionUnitTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377D7C312AFA3370003430DB /* ExtensionUnitTest.swift */; };
 		37C0D1042A9454D8004697A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1032A9454D8004697A6 /* AppDelegate.swift */; };
 		37C0D1062A9454D8004697A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1052A9454D8004697A6 /* SceneDelegate.swift */; };
 		37C0D1082A9454D8004697A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C0D1072A9454D8004697A6 /* ViewController.swift */; };
@@ -52,6 +55,10 @@
 		3701674D2AEA5C7C0073D444 /* Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674E2AECAFC20073D444 /* Enumerations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enumerations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		37703E212AF5078E000AC0AD /* Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Singleton.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		37703E222AF88C4C000AC0AD /* ARC.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ARC.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		377D7C2D2AFA311A003430DB /* ARC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARC.swift; sourceTree = "<group>"; };
+		377D7C2F2AFA32A1003430DB /* ARCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCTests.swift; sourceTree = "<group>"; };
+		377D7C312AFA3370003430DB /* ExtensionUnitTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUnitTest.swift; sourceTree = "<group>"; };
 		37C0D1002A9454D8004697A6 /* DeepSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C0D1032A9454D8004697A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37C0D1052A9454D8004697A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,6 +121,7 @@
 				3701674D2AEA5C7C0073D444 /* Closure.playground */,
 				3701674E2AECAFC20073D444 /* Enumerations.playground */,
 				37703E212AF5078E000AC0AD /* Singleton.playground */,
+				37703E222AF88C4C000AC0AD /* ARC.playground */,
 			);
 			path = Basics;
 			sourceTree = "<group>";
@@ -183,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				37C0D13C2A970D2B004697A6 /* Content.swift */,
+				377D7C2D2AFA311A003430DB /* ARC.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -225,6 +234,8 @@
 			isa = PBXGroup;
 			children = (
 				37C0D1412A975258004697A6 /* ContentTests.swift */,
+				377D7C2F2AFA32A1003430DB /* ARCTests.swift */,
+				377D7C312AFA3370003430DB /* ExtensionUnitTest.swift */,
 			);
 			path = UnitTest;
 			sourceTree = "<group>";
@@ -406,6 +417,7 @@
 				37C0D11A2A945686004697A6 /* MainPassDataVC.swift in Sources */,
 				37C0D16F2A9C4424004697A6 /* FirstTabBarVC.swift in Sources */,
 				37C0D11F2A94A305004697A6 /* PropertyPassDataVC.swift in Sources */,
+				377D7C2E2AFA311A003430DB /* ARC.swift in Sources */,
 				37C0D16B2A9C3E98004697A6 /* MainTabBarVC.swift in Sources */,
 				37C0D1712A9C4439004697A6 /* SecondTabBarVC.swift in Sources */,
 				37C0D1752A9C7F86004697A6 /* FourthTabBarVC.swift in Sources */,
@@ -420,7 +432,9 @@
 			files = (
 				37C0D13B2A970657004697A6 /* StringExtensionsTests.swift in Sources */,
 				37C0D12F2A9704E5004697A6 /* DeepSwiftTests.swift in Sources */,
+				377D7C302AFA32A1003430DB /* ARCTests.swift in Sources */,
 				37C0D1422A975258004697A6 /* ContentTests.swift in Sources */,
+				377D7C322AFA3370003430DB /* ExtensionUnitTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
