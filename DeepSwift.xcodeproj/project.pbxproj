@@ -48,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3700F3CB2B0C9F380018C0DB /* JSONSerialization.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = JSONSerialization.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		370167482ADE71C80073D444 /* Properties.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Properties.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674A2AE2875D0073D444 /* Initializer.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Initializer.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		3701674B2AE8DC180073D444 /* ClassStructure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ClassStructure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -122,6 +123,7 @@
 				3701674E2AECAFC20073D444 /* Enumerations.playground */,
 				37703E212AF5078E000AC0AD /* Singleton.playground */,
 				37703E222AF88C4C000AC0AD /* ARC.playground */,
+				3700F3CB2B0C9F380018C0DB /* JSONSerialization.playground */,
 			);
 			path = Basics;
 			sourceTree = "<group>";

@@ -1,0 +1,14 @@
+
+{
+    "name": "Woody",
+    "friends": [
+            {
+                "name": "Buzz Lightyear",
+                "color": "white"
+            },
+            {
+                "name": "Dinosaur",
+                "color": "green"
+            }
+    ]
+}
